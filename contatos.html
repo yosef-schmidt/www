@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        
+        footer {
+            
+            
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        
+        .dropdown {
+            position: relative;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #fff;
+            list-style: none;
+            padding: 0; 
+            border: 1px solid #ccc;
+            z-index: 1;
+        }
+        .dropdown-menu li {
+            padding: 10px; 
+        }
+        .dropdown-menu li a {
+            color: #000; 
+            text-decoration: none; 
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <P><img src="Imagens/logomarca_resized.png" alt=""></P>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="sobre.html">Sobre a empresa</a></li>
+            <li><a href="contatos.html">Contatos</a></li>
+            <li class="dropdown">
+                <a href="#">Produtos</a>
+                <ul class="dropdown-menu">
+                    <li><a href="op1.html">Camisas</a></li>
+                    <li><a href="op2.html">Bermudas</a></li>
+                    <li><a href="op3.html">Calças</a></li>
+                </ul>
+            </li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <main>
+        
+        <h2>Contatos</h2>
+        <p>Contato: yosefvinicius@gmail.com</p>
+    </main>
+    <footer>
+        <h2>Site feito por Yosef Schmidt Abreu de Medeiros</h2>
+        <p>Aluno do CPET curso de Técnico em Informática para Internet</p>
+    </footer>
+    
+</body>
+</html>
